@@ -1,0 +1,26 @@
+Health_AI_Agent/
+│
+├─ app/
+│   ├─ main.py
+│   └─ config.py
+│
+├─ agents/
+│   ├─ orchestrator.py
+│   ├─ sql_agent.py
+│   ├─ rag_agent.py
+│   ├─ qa_agent.py
+│   ├─ analyst_agent.py
+│   └─ report_agent.py
+│
+├─ db/
+│   ├─ bigquery_client.py
+│   └─ pgvector_client.py
+│
+├─ ingestion/
+│   ├─ ingest_docs.py
+│   ├─ chunking.py
+│   └─ embed_store.py
+│
+├─ requirements.txt
+├─ Dockerfile
+└─ README.md

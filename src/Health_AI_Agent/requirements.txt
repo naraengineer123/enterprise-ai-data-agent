@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+openai
+psycopg2-binary
+google-cloud-bigquery
+langchain
+tiktoken
+pydantic
+python-dotenv
+pgvector
