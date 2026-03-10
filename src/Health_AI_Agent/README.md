@@ -1,17 +1,13 @@
 Multi-Agent AI System for Enterprise Data Query
-
 AI-powered platform that enables natural language querying of 10,000+ enterprise tables using a multi-agent architecture, RAG pipelines, and SQL automation.
 
 The system allows business users to ask questions such as:
 
-Which members have diabetes risk?
-
-Show members with high cardiovascular risk.
-
-Members with hospitalization risk above threshold.
-
-Members with chronic disease indicators.
-
+  Which members have diabetes risk?
+  Show members with high cardiovascular risk.
+  Members with hospitalization risk above threshold.
+  Members with chronic disease indicators.
+  
 The platform automatically translates these questions into SQL queries, policy-aware retrieval, analytics, and reports.
 
 
@@ -19,24 +15,15 @@ The platform automatically translates these questions into SQL queries, policy-a
 
 
 
-
 System Components
 FastAPI Application Layer
-
-The system exposes APIs using FastAPI to allow users or applications to interact with the AI platform.
+  The system exposes APIs using FastAPI to allow users or applications to interact with the AI platform.
 
 Responsibilities:
-
-Accept user questions
-
-Send requests to agent orchestrator
-
-Return structured responses
-
-Provide REST endpoints
-
-
-
+  Accept user questions
+  Send requests to agent orchestrator
+  Return structured responses
+  Provide REST endpoints
 
 Multi-Agent Architecture
 
@@ -100,3 +87,4 @@ Outputs:
   Dashboards
   Alerts
   Care management triggers
+
